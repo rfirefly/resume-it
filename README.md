@@ -3,11 +3,8 @@ Resume-it
 
 一个灵活的数据模板分离的在线简历生成器。
 效果：https://xiao555.github.io/Resume/
-如果喜欢的话请给个star ^_^
 
-![](./resume.png)
-
-Node version v7.7.0
+![](./src/assets/interview.png)
 
 ## 风格参考
 
@@ -50,9 +47,14 @@ npm i
 ```
 
 ### Dev
+#### 生成目标文件dist
+```js
+gulp init
+```
 
+#### 运行项目
 ```javascript
-npm start
+gulp
 ```
 自动打开浏览器访问：`http://localhost:3000/`。 Browsersync 带热重载功能。
 
@@ -79,6 +81,9 @@ npm run public
 
 2017.6.18
   调整结构，采用 Gulp 打包，public 用 `simple-git`, 不用shell脚本了
+
+2020.4.15
+  重写`gulpfile.js`，使用4.0.1版本
 
 ## LICENSE
 
