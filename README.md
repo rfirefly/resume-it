@@ -1,3 +1,4 @@
+<img align="right" width="80" src="./src/assets/iconfont.svg"/>
 Resume-it
 ======
 
