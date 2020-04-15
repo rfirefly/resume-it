@@ -8,7 +8,7 @@ git(path)
   .init()
   .add('./*')
   .commit("public")
-  .addRemote('origin', repo)
+  .addRemote('dev', repo)
   .push(['-f', 'origin', 'master'], () => {
     console.log("Push to master success");
   })
