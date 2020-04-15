@@ -96,5 +96,4 @@ gulp.task('default', gulp.series('scripts', 'styles', 'fonts','html', () => {
     .pipe(gulp.dest("./dest/**"))
   })
 
-  gulp.watch(["dist/*.html", "dist/assets/*.*"]).on('change', browserSync.reload)
-}))
+  gulp.watch(["dist/*.html", "dist/assets/*.*"]).on('change', browserSync.reload)}))
